@@ -4,8 +4,7 @@ import cv2
 import numpy as np
 
 # Get a reference to webcam #0 (the default one)
-# video_capture = cv2.VideoCapture(0)
-video_capture = cv2.VideoCapture("img/movie.mp4")
+video_capture = cv2.VideoCapture(0)
 
 # Load sample pictures and learn how to recognize it.
 erwin_image = face_recognition.load_image_file("img/imgA.jpg")
